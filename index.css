@@ -177,11 +177,12 @@ section {
 
 /* My Styles */
 /* color way: https://colorhunt.co/palette/206844
-#f8efd4
-#edc988 - link colors
-#de4463 - background color
-#821752
-font color: #ffeadb
+#bf9155
+#73502a
+#ee6651
+#fb9b73
+#edc988
+font color: #ffeadb #39464c 
 */
 nav,
 header,
@@ -192,7 +193,7 @@ main,footer {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #de4463;
+    background-color: #bf9155;
 }
 
 nav img {
@@ -216,14 +217,12 @@ nav a {
 }
 
 header {
-    background-image: url("img/header-img.jpg");
+    background-image: url("img/header-img3.jpg");
     background-size: cover;
     background-position: center;
     padding: 15%;
-    /* height: 500px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -239,7 +238,7 @@ header h1 {
 .header-links {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 header a {
@@ -247,10 +246,22 @@ header a {
     border: 2px solid #edc988;
     padding: 2% 5%;
     border-radius: 50px;
+    margin: 5%;
 }
 
-main {
-    background-color: #de4463;
+.container1 {
+    background: url(img/main-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffeadb;
+    display: flex;
+    padding: 10%;
+}
+
+.container2{
+    background: url(img/main-img2.jpg);
+    background-size: cover;
+    background-position: center;
     color: #ffeadb;
     display: flex;
     padding: 10%;
@@ -263,6 +274,7 @@ main div {
 .mid-img{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 main img {
@@ -282,7 +294,7 @@ main img {
 }
 
 footer{
-    background-color: #de4463a4;
+    background-color: #bf9155;
     padding: 5% 2%;
     display: flex;
     flex-direction: column;
