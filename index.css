@@ -3,15 +3,14 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
-
+    border: 1px solid grey;
 }
 
 html {
     font-size: 62.5%;
     width: 80%;
     margin: 0 10%;
-    background-color: rgb(133, 236, 73);
+    background-color: beige;
 }
 
 body {
@@ -35,6 +34,10 @@ h1 {
 
 h2 {
     font-size: 5.5rem;
+}
+
+h3 {
+    font-size: 3.5rem;
 }
 
 p {
@@ -111,7 +114,6 @@ p {
 #categories h2,
 h3 {
     text-align: center;
-
 }
 
 .categories-container {
@@ -158,4 +160,76 @@ footer .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-intro {
+    text-align: center;
+}
+
+.about-intro p {
+    width: 90%;
+}
+
+#the-team {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#the-team p {
+    width: 80%;
+}
+
+#the-team h5,
+a {
+    text-align: center;
+}
+
+.project-manager,
+.back-end,
+.front-end,
+.UX-UI {
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo {
+    align-content: center;
+    margin: 2% 0;
+    width: 20%;
+}
+
+.photo-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:800px) {
+    .photo {
+        width: 40%;
+    }
+    #the-team a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        width: 100%;
+        margin: 0;
+    }
+    #the-team {
+        width: 100%;
+        margin: 0;
+    }
+    a {
+        font-size: 1.5rem;
+    }
 }
