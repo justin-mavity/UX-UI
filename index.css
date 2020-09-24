@@ -212,6 +212,20 @@ a {
 }
 
 @media(max-width:800px) {
+    .top-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-img {
+        width: 100%;
+    }
+    .top-box h1,
+    p {
+        width: 90%;
+    }
+    #categories h3 {
+        font-size: 2.3rem;
+    }
     .photo {
         width: 40%;
     }
@@ -231,5 +245,17 @@ a {
     }
     a {
         font-size: 1.5rem;
+    }
+    #categories {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #categories h3 {
+        font-size: 1.8rem;
+    }
+    #the-team p {
+        width: 100%;
+        font-size: 3rem;
     }
 }
